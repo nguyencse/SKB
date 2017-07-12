@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnl_item_meeting"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/bg_item_bottom_clickable"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:paddingEnd="16dp"
+    android:paddingStart="5dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_more_vert" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_meeting_date_title"
+                android:textColor="@android:color/black" />
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="@string/txt_meeting_doctor_title"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/txt_meeting_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black" />
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/txt_meeting_doctor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <vn.taa.mrta.custom.TextViewCSE
+            android:id="@+id/txt_item_meeting_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/txt_event_status_pending"
+            android:textColor="@color/colorBlueSuperDark" />
+    </LinearLayout>
+</LinearLayout>

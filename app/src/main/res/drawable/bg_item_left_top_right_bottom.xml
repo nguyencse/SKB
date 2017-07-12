@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:drawable="@drawable/bg_gray_dark" />
+            <item android:bottom="1dp" android:drawable="@drawable/bg_gray_lite" android:left="1dp" android:right="1dp" android:top="1dp" />
+        </layer-list>
+    </item>
+    <item>
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:drawable="@drawable/bg_gray_dark" />
+            <item android:bottom="1dp" android:drawable="@drawable/bg_white" android:left="1dp" android:right="1dp" android:top="1dp" />
+        </layer-list>
+    </item>
+</selector>

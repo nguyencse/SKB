@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_layout_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_name"
+                android:textColor="@android:color/black" />
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/txt_dashboard_profile_name_manual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_age"
+                android:textColor="@android:color/black" />
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/txt_dashboard_profile_age_manual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_gender"
+                android:textColor="@android:color/black" />
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/txt_dashboard_profile_gender_manual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_address"
+                android:textColor="@android:color/black" />
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/txt_dashboard_profile_address_manual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="70dp"
+                android:text="@string/txt_diagnose"
+                android:textColor="@android:color/black" />
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/txt_dashboard_profile_diagnose_manual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/textViewCSE4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="70dp"
+                android:text="@string/txt_note"
+                android:textColor="@android:color/black" />
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/txt_dashboard_profile_note_manual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

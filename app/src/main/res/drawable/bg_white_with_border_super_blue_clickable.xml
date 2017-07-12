@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/bg_super_blue" />
+            <item android:bottom="1dp" android:drawable="@drawable/bg_gray_dark" android:left="1dp" android:right="0dp" android:top="1dp" />
+        </layer-list>
+    </item>
+
+    <item>
+        <layer-list>
+            <item android:drawable="@drawable/bg_super_blue" />
+            <item android:bottom="1dp" android:drawable="@drawable/bg_white" android:left="1dp" android:right="0dp" android:top="1dp" />
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <vn.taa.mrta.custom.TextViewCSE
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:minHeight="40dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="10dp"
+        android:text="@string/txt_dashboard_drug_list_nearest" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/sw_reminder_drink_drug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/remind_drink_drug" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/txt_dashboard_druglist_morning_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGraySuperLite"
+                android:gravity="center_vertical"
+                android:minHeight="42dp"
+                android:padding="10dp"
+                android:text="@string/txt_dashboard_morning_title"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview_dashboard_morning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white" />
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/txt_dashboard_druglist_noon_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGraySuperLite"
+                android:gravity="center_vertical"
+                android:minHeight="42dp"
+                android:padding="10dp"
+                android:text="@string/txt_dashboard_noon_title"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview_dashboard_noon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white" />
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/txt_dashboard_druglist_afternoon_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGraySuperLite"
+                android:gravity="center_vertical"
+                android:minHeight="42dp"
+                android:padding="10dp"
+                android:text="@string/txt_dashboard_afternoon_title"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview_dashboard_afternoon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white" />
+
+            <vn.taa.mrta.custom.TextViewCSE
+                android:id="@+id/txt_dashboard_druglist_evening_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGraySuperLite"
+                android:gravity="center_vertical"
+                android:minHeight="42dp"
+                android:padding="10dp"
+                android:text="@string/txt_dashboard_evening_title"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview_dashboard_evening"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

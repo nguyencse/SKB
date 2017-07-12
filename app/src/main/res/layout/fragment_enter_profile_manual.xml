@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorBlueSuperDark" />
+
+        <vn.taa.mrta.custom.TextViewCSE
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/add_profile_detail"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlueSuperDark" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@color/colorBlueSuperDark" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:elevation="8dp"
+            android:orientation="vertical">
+
+            <vn.taa.mrta.custom.EditTextCSE
+                android:id="@+id/edt_enter_profile_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:elevation="8dp"
+                android:hint="@string/full_name"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:textSize="14sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:elevation="8dp"
+            android:orientation="vertical">
+
+            <vn.taa.mrta.custom.EditTextCSE
+                android:id="@+id/edt_enter_profile_user_age"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:elevation="8dp"
+                android:hint="@string/age"
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:textSize="14sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:elevation="8dp"
+            android:orientation="vertical">
+
+            <vn.taa.mrta.custom.EditTextCSE
+                android:id="@+id/edt_enter_profile_user_gender"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:elevation="8dp"
+                android:hint="@string/gender"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:textSize="14sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:elevation="8dp"
+            android:orientation="vertical">
+
+            <vn.taa.mrta.custom.EditTextCSE
+                android:id="@+id/edt_enter_profile_user_address"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:elevation="8dp"
+                android:hint="@string/patient_address"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:textSize="14sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:elevation="8dp"
+            android:orientation="vertical">
+
+            <vn.taa.mrta.custom.EditTextCSE
+                android:id="@+id/edt_enter_profile_user_diagnose"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@android:color/white"
+                android:elevation="8dp"
+                android:gravity="top"
+                android:hint="@string/diagnose"
+                android:inputType="textNoSuggestions"
+                android:padding="15dp"
+                android:textSize="14sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:elevation="8dp"
+            android:orientation="vertical">
+
+            <vn.taa.mrta.custom.EditTextCSE
+                android:id="@+id/edt_enter_profile_user_note"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@android:color/white"
+                android:elevation="8dp"
+                android:gravity="top"
+                android:hint="@string/note"
+                android:inputType="textNoSuggestions"
+                android:padding="15dp"
+                android:textSize="14sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="3dp">
+
+            <vn.taa.mrta.custom.ButtonCSE
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button_ok_blue"
+                android:text="@string/save_info"
+                android:textColor="@android:color/white" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
